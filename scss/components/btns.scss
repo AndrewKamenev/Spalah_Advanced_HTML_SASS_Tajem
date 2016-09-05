@@ -1,3 +1,13 @@
-.btn {
-	
+button {
+	cursor: pointer;
+}
+.button-main {
+	@include button($color-main, solid 1px $color-main, transparent, 15px, 16px);
+	border-radius: 2px;
+	font-family: 'Hammersmith One', sans-serif;
+	text-transform: uppercase;
+	&:hover {
+		background: $color-main;
+		color: white;
+	}
 }

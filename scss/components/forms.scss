@@ -1,3 +1,11 @@
-form {
-	
+.form-main {
+
 }
+.form-main_input, .form-main_textarea  {
+		@include button (#413d4b, 1px solid #413d4b, white, 20px, 14px)
+		font-family: Roboto;
+		font-weight: 300;
+		width: 100%;
+		margin-bottom: 20px;
+		opacity: 0.5;
+	}
