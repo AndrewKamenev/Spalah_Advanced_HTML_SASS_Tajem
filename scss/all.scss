@@ -98,6 +98,7 @@
 	text-align: center;
 	height: 400px;
 	margin-top: 150px;
+	overflow: hidden;
 	.owl-nav {
 		display: none;
 	}
@@ -170,4 +171,18 @@
 	&:hover {
 		color: $color-main;
 	}
+}
+.adver:hover > div {
+	opacity: 0.8;
+}
+.footer {
+		
+}
+.menu-item_footer {
+	float: left;
+	margin-right: 30px;
+	@extend .text-footer;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: white;
 }

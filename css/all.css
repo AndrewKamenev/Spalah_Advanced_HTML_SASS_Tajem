@@ -110,7 +110,7 @@ a {
   font-weight: 900;
 }
 
-.text-main, .owl-carousel_text {
+.text-main, .owl-carousel_text, .text-footer, .h1-footer, .menu-item_footer {
   opacity: 0.75;
   color: black;
   font-family: Roboto;
@@ -158,6 +158,27 @@ a {
 
 .owl-carousel_text {
   margin: 30px 0 50px;
+}
+
+.text-footer, .h1-footer, .menu-item_footer {
+  color: white;
+}
+
+.h1-footer {
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 26px;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.review-text {
+  opacity: 0.85;
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 button {
@@ -280,6 +301,7 @@ button {
   text-align: center;
   height: 400px;
   margin-top: 150px;
+  overflow: hidden;
 }
 
 .owl-carousel-review .owl-nav {
@@ -362,6 +384,18 @@ button {
 
 .link-block:hover {
   color: #00e0d0;
+}
+
+.adver:hover > div {
+  opacity: 0.8;
+}
+
+.menu-item_footer {
+  float: left;
+  margin-right: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
 }
 
 /*# sourceMappingURL=all.css.map */
