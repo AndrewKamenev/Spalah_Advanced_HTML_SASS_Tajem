@@ -77,9 +77,28 @@
 	@extend .center;
 	margin: 30px 0 50px;
 }
+.video-wrap {
+	width: 160px;
+	height: 150px;
+	margin: auto;
+	display: table-cell;
+	vertical-align: middle;
+	a:hover {
+		opacity: 0.5;
+	}
+}
+.text-video {
+	color:white;
+	text-transform: uppercase;
+	margin-top: 30px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 900;
+}
 .text-footer {
 	@extend .text-main;
 	color: white;
+	margin-bottom: 10px;
 }
 .h1-footer {
 	@extend .text-footer;
@@ -88,6 +107,7 @@
 	line-height: 26px;
 	text-transform: uppercase;
 	opacity: 1;
+	margin-bottom: 30px;
 }
 
 .review-text {
@@ -97,4 +117,8 @@
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
+}
+.copyright {
+	@extend .text-footer;
+	line-height: 3;
 }

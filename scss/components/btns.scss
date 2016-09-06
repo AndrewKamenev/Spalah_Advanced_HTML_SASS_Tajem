@@ -11,3 +11,13 @@ button {
 		color: white;
 	}
 }
+.button-footer-logo {
+	@include button($color-main, none, rgba(255,255,255,0.5) url(../images/paper-plane.png) center no-repeat, 10px, 10px);
+	width: 70px;
+	height: 45px;
+	margin-left: 5px;
+	display: table-cell;
+	&:hover {
+		background: $color-main url(../images/paper-plane.png) center no-repeat;
+	}
+}

@@ -9,3 +9,25 @@
 		margin-bottom: 20px;
 		opacity: 0.5;
 	}
+
+.input-footer {
+	width: 200px;
+	height: 45px;
+	padding: 10px;
+	// opacity: 0.5;
+	border: 1px solid white;
+	background:transparent;
+	color: white;
+}
+.input-footer::-webkit-input-placeholder {
+	color: white;
+}
+.input-footer::-moz-placeholder {
+	color: white;
+	}/* Firefox 19+ */
+.input-footer:-moz-placeholder {
+	color: white;
+	}/* Firefox 18- */
+.input-footer:-ms-input-placeholder {
+	color: white;
+}
